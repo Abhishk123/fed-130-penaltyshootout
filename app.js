@@ -44,7 +44,7 @@ var updateButtonText = () =>{
     }
 
 
-    button.textContent = `${toss%2 === 1 ? team1.name:team2.name} Strike`;
+    button.textContent = `Strike(${toss%2 === 1 ? team1.name:team2.name} )`;
 };
 
 var updateNames = () =>{
